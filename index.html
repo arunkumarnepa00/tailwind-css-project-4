@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Apple IN</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                navmain: '#454545',
+                navText:'#A8A8A9',
+                cardBg:'#F5F5F7'
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class="flex list-none justify-evenly align-middle w-100  bg-navmain p-3 text-navText text-xs 
+    font-medium px-5">
+        <li ><img src="./assets/apple-svgrepo-com.svg" width="15px"/></li>
+        <li class="hover:text-white">Store</li>
+        <li class="hover:text-white">Mac</li>
+        <li class="hover:text-white">iPhone</li>
+        <li class="hover:text-white">iPad</li>
+        <li class="hover:text-white">Watch</li>
+        <li class="hover:text-white">TV & Home</li>
+        <li class="hover:text-white">Entertainment</li>
+        <li class="hover:text-white">Accessories</li>
+        <li class="hover:text-white">Support</li>
+        <li><img src="./assets/search-4-svgrepo-com.svg" width="20px"/></li>
+        <li><img src="./assets/bag-svgrepo-com.svg" width="14px"/></li>
+        <li></li>
+    </div>
+    <div class="text-sm font-medium flex justify-center my-3">
+        <p>
+            Get up to ₹8000.00 instant savings on selected products with eligible HDFC Bank cards.*
+        </p>
+        <p class="text-blue-800">&nbsp;Shop now ></p>
+    </div>
+    <div class="bg-cardBg py-5"> 
+        <div class="text-center py-5 mt-5">
+            <p class="text-6xl font-semibold">MacBook Air 15"</p>
+            <p class="text-2xl">Impressively Big. Impossibly thin.</p>
+            <p class="text-blue-800 text-xl">Learn more >  &nbsp; &nbsp; &nbsp;   Buy ></p>
+        </div>
+        <div class="flex justify-center">
+            <img src="./assets/mac-15.webp.png" height=""/>
+        </div>
+    </div>
+    <div class="bg-cardBg mt-5 py-5">
+      <div class="text-center py-5 mt-5">
+        <p class="text-5xl font-bold">Save on Mac or iPad</p>
+        <p class="text-5xl font-bold">for university.</p>
+        <p class="text-2xl mt-2">Plus get AirPods with Mac and Apple Pencil with iPad.<sup>1</sup></p>
+        <p class="text-blue-800 text-xl">Shop now ></p>
+      </div>
+      <div class="flex justify-center">
+        <img src="./assets/preunidays-header-hero.png" width="25%" height="25%"/>
+    </div>
+    </div>
+    <div class="bg-black mt-5 pt-5">
+        <div class="text-center py-5 my-5">
+           <p class="text-6xl font-semibold text-white"> iPhone 14 Pro</p>
+           <p class="text-3xl font-semibold text-white">Pro. Beyond.</p>
+           <p class="text-blue-800 text-xl font-medium">Learn more >  &nbsp; &nbsp; &nbsp;   Buy ></p>
+        </div>
+        <!-- <video preload="metadata" autoplay loop >
+            <source src="./assets/large_2x.mp4" type="video/mp4">
+        </video> -->
+        <div class="flex justify-center">
+            <img src="./assets/14-pro.png" width="80%" height="25%"/>
+        </div>
+    </div>
+</body>
+</html>
